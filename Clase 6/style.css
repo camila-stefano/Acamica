@@ -1,0 +1,13 @@
+body {
+  width: 800px;
+}
+.template {
+  position: relative;
+  background-color: gray;
+  height: 80vh;
+  z-index: -1;
+}
+
+.eje {
+
+}

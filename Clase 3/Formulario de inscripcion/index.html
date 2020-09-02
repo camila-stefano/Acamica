@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscripción</title>
+</head>
+
+<body>
+  <header>
+    <h1>ACÁMICA</h1>
+  </header>
+  <main>
+    <h2>Formulario de inscripción</h2>
+    <fieldset>
+      <legend>Ingrese sus datos</legend>
+      <form action="formulario.php" method="get">
+        <label for="nombre"><b>Nombre:</b></label>
+        <input type="text" name="nombre2" id="nombre" placeholder="Ingrese su nombre" required> <br>
+        <label for="apellido"><b>Apellido:</b></label>
+        <input type="text" name="apellido2" id="apellido" placeholder="Ingrese su apellido" required> <br>
+        <label for="email"><b>E-Mail:</b></label>
+        <input type="email" name="email2" id="email" placeholder="Ingrese su email" required> <br>
+        <label for="paises2"><b>País de origen:</b></label> <br>
+        <select name="paises" id="paises2" required> <br>
+          <option value="-"><b>Seleccione un país</b></option>
+          <option value="Argentina">Argentina</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Chile">Chile</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Costa Rica">Costa Rica</option>
+          <option value="Cuba">Cuba</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="México">México</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Perú">Perú</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Venezuela">Venezuela</option> <br>
+        </select>
+        <br>
+        <label for="carrera"><b>Carrera:</b></label> <br>
+        <input type="checkbox" name="UX/UI" id="carrera" required> UX/UI <br>
+        <input type="checkbox" name="Data Science" id="carrera" required> Data Science <br>
+        <input type="checkbox" name="DWFS" id="carrera" required> Desarrollo Web Full Stack <br>
+        <input type="checkbox" name="Front End" id="carrera" required> Front End Avanzado <br>
+        <label for="modalidad"><b>Modalidad:</b></label> <br>
+        <input type="radio" name="modalidad" id="modalidad" required> Presencial <br>
+        <input type="radio" name="modalidad" id="modalidad" required> Online <br>
+        <label for="texto">Descripción personal:</label> <br>
+        <textarea name="texto" id="texto2" cols="30" rows="10" maxlength="300"></textarea> <br>
+        <label for="trabajo"><b>¿Trabaja actualmente?</b></label> <br>
+        <input type="radio" name="trabajo" id="trabajo" required> Si <br>
+        <input type="radio" name="trabajo" id="trabajo" required> No <br>
+        <label for="telefono"><b>Teléfono:</b></label>
+        <input type="text" name="telefono2" id="telefono" placeholder="Ingrese su teléfono..." required> <br>
+        <button type="reset">Empezar de nuevo</button>
+        <button type="submit">Enviar</button>
+      </form>
+    </fieldset>
+
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gatito {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    position: relative;
+}
+
+main {
+    background: rgb(2,0,36);
+    background: linear-gradient(172deg, rgba(2,0,36,1) 0%, rgba(175,123,176,1) 48%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    background: violet;
+    transition: 1s all linear;
+    transform-origin: right bottom;
+}
+
+.box:hover {
+    transform: rotate(90deg);
+}

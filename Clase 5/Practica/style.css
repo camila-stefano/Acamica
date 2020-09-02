@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    float: left;
+}
+
+.logo__img {
+    height: 50px;
+}
+
+.logo__title {
+    margin-left: 1rem;
+    font-family: 'Roboto';
+}
+
+.menu {
+    float: right;
+    height: 50px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li:hover {
+    color: red;
+}
+
+article {
+    position: relative;
+}
+.btn {
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(61,61,61,1) 18%, rgba(255,102,102,1) 67%, rgba(255,0,0,1) 100%); 
+}
