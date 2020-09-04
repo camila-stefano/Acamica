@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header__titulo">¡Hola! <br>Soy Camila</h1>
+      <h2 class="header__subtitulo">Trainee Developer</h2>
+    </header>
+
+    <article class="articulo">
+      <p class="titulo">¿Quien soy?</p>
+      <div class="articulo__texto">
+        <p>Mi nombre completo es Camila Victoria Stefano Fioritto, tengo 26 años y actualmente trabajo como
+          administrativa
+          en Viviendas Roca, y estudio Desarrollo Web Full Stack en ACAMICA!</p>
+        <p>Hasta el momento aprendi como estructurar una pagina con HTML5 y darle vida con CSS. Estoy implementando SASS
+          y
+          sigo
+          practicando! </p>
+      </div>
+    </article>
+
+    <section class="proyectos">
+      <p class="titulo">Mis proyectos</p>
+      <ul class="proyectos__lista">
+        <li>Mi artista Favorito</li>
+        <li>Podcast Channel</li>
+      </ul>
+    </section>
+
+    <section class="contacto">
+      <form action="formulario.php" method="GET">
+        <p class="titulo">Contacto</p>
+        <legend>Si queres hablar, dejame tu mensaje!</legend>
+
+        <p>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+        </p>
+
+        <p>
+          <label for="mail">Email</label>
+          <input type="email" name="mail" id="mail" />
+          </select>
+        </p>
+
+        <p>
+          <textarea name="msj" rows="10" cols="30">Ingrese su mensaje aqui.</textarea>
+        </p>
+
+        <button type="submit">ENVIAR</button>
+      </form>
+    </section>
+  </div>
+
+  <footer class="footer">
+    Diseño por Camila Stefano
+  </footer>
+</body>
+
+</html>

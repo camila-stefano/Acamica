@@ -1,0 +1,95 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header {
+  color: white;
+  background-color: #03071e;
+  padding: 1rem;
+}
+
+.header__titulo {
+  font-size: 4rem;
+}
+
+.header__subtitulo {
+  color: #ffb4a2;
+  font-size: 2rem;
+}
+
+.titulo {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.articulo {
+  padding: 2rem 1rem;
+}
+
+.articulo__texto {
+  font-size: 1.1rem;
+}
+
+.proyectos {
+  padding: 2rem 1rem;
+  background-color: #ffb4a2;
+}
+
+.proyectos__lista {
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.contacto {
+  padding: 2rem 1rem;
+}
+
+.contacto p {
+  margin-top: .5rem;
+}
+
+.contacto label {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.contacto input, .contacto textarea {
+  width: 100%;
+  padding: .5rem;
+}
+
+.contacto button {
+  background: #ff6b6b;
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  border: 0;
+  color: white;
+  font-weight: 800;
+}
+
+.contacto button:hover {
+  opacity: .8;
+}
+
+.footer {
+  padding: 1rem;
+  background-color: #1a535c;
+  color: white;
+  font-size: .85rem;
+  font-variant: all-petite-caps;
+}
+/*# sourceMappingURL=styles.css.map */
